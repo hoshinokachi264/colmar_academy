@@ -1,0 +1,44 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+                          /* Navigation */
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+header, nav {
+  display: block;
+}
+header nav ul {
+    display: flex;
+}
+a {
+    color: #464646;
+    text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+nav li {
+    padding-left: 1rem;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+header .logo {
+    flex: 1;
+}
+.mobile {
+  display: none;
+}
+                      /* Main Content */
+
+                      /* Banner */
+.banner {
+  background-color: #e8e8e8;
+}
