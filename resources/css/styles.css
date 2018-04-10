@@ -43,8 +43,6 @@ header .logo {
 .nav, .desktop {
   color: #464646;
 }
-                      /* Main Content */
-
                       /* Banner */
 h1 {
   font-size: 3rem;
@@ -54,7 +52,7 @@ h3 {
   font-size: 1.6rem;
   font-weight: bold;
 }
-h1, h3 {
+h1, h2, h3 {
   color: #464646;
 }
 .banner {
@@ -65,14 +63,11 @@ h1, h3 {
 }
 .img1 {
     position: relative;
-    width: 60%;
+    width: 57.8%;
     padding-left: 1.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-right: 1.5rem;
-}
-.img1, .cta {
-
 }
 .cta {
     width: 40%;
@@ -93,4 +88,24 @@ h1, h3 {
 }
 .start {
   color: white;
+}
+                    /* Main Content */
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.main-content {
+  background-color: white;
+  display: flex;
+  position: relative;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+}
+.img2, .content {
+  width: 60%;
+}
+.img2 {
+
 }
