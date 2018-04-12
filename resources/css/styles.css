@@ -48,10 +48,6 @@ h1 {
   font-size: 3rem;
   font-weight: bold;
 }
-h3 {
-  font-size: 1.6rem;
-  font-weight: bold;
-}
 h1, h2, h3 {
   color: #464646;
 }
@@ -122,6 +118,10 @@ h2 {
   font-size: 1.2rem;
 }
               /* Side bar */
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .sidebar {
   width: 40%;
   border-left: 1px solid #e8e8e8;
