@@ -1,18 +1,19 @@
 html {
   font-family: "Calibri", sans-serif;
   font-size: 16px;
+  color: #464646;
 }
-                          /* Navigation */
+            /* Navigation */
 header {
-    z-index: 1;
-    width: 100%;
-    background-color: white;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
 }
 div {
   display: block;
 }
 header nav ul {
-    display: flex;
+  display: flex;
 }
 header, nav {
   font-family: "Roboto", sans-serif;
@@ -24,15 +25,15 @@ ul {
   list-style: none;
 }
 nav li {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 header .container {
-    display: flex;
-    align-items: center;
-    padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
 }
 header .logo {
-    flex: 1;
+  flex: 1;
 }
 .mobile {
   display: none;
@@ -43,12 +44,12 @@ header .logo {
 .nav, .desktop {
   color: #464646;
 }
-                      /* Banner */
+            /* Banner */
 h1 {
   font-size: 3rem;
   font-weight: bold;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: #464646;
 }
 .banner {
@@ -58,17 +59,17 @@ h1, h2, h3 {
   align-items: center;
 }
 .img1 {
-    position: relative;
-    width: 57.8%;
-    padding-left: 1.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 1.5rem;
+  position: relative;
+  width: 57.8%;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
 }
 .cta {
-    width: 40%;
-    padding-right: 3rem;
-    padding-top: 1rem;
+  width: 40%;
+  padding-right: 3rem;
+  padding-top: 1rem;
 }
 .cta-subtitle {
   padding-top: 2rem;
@@ -84,7 +85,7 @@ h1, h2, h3 {
 .start {
   color: white;
 }
-                    /* Main Content */
+            /* Main Content */
 h2 {
   font-size: 1.8rem;
   font-weight: 900;
@@ -148,4 +149,46 @@ h3 {
 }
 .read-link {
   color: #60a5cd;
+}
+            /* Gallery */
+.gallery {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 9rem;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: .5rem;
+}
+.gallery-title {
+  padding-left: 18rem;
+  padding-right: 18rem;
+  padding-bottom: 1rem;
+}
+.subject {
+  width: 27%;
+  padding: 2rem 1rem;
+}
+.subject img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.subject span {
+  display: block;
+}
+.subject p {
+  display:block;
+}
+.description3 {
+  background-color: white;
+  padding: 1rem;
+  line-height: 130%;
+  height: 7.5rem;
+}
+.description3 span {
+  padding-bottom: .5rem;
 }
