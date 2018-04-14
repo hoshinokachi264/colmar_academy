@@ -87,7 +87,7 @@ h1, h2, h3, h4 {
 }
             /* Main Content */
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 900;
 }
 .main-content {
@@ -103,7 +103,6 @@ h2 {
   width: 60%;
   padding-left: 1.5rem;
   padding-top: 2rem;
-
   padding-right: 1.5rem;
 }
 .description1, h2 {
@@ -191,4 +190,22 @@ h4 {
 }
 .description3 span {
   padding-bottom: .5rem;
+}
+            /* Exhibit */
+.exhibit {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 9rem;
+}
+.video-content {
+  width: 60%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.video {
+  
 }
