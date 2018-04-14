@@ -206,6 +206,9 @@ h4 {
   display: flex;
   flex-direction: column;
 }
-.video {
-  
+video {
+  max-width: 100%;
+}
+.gallery-title {
+
 }
