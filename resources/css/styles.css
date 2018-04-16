@@ -238,7 +238,7 @@ video {
           /* footer */
 footer {
   border-top: 1px solid #e8e8e8;
-  
+
   padding: 1rem 1.5rem;
   height: 4rem;
   display: block;
@@ -248,4 +248,10 @@ footer {
 }
 footer .copyright {
   flex-grow: 1;
+}
+.footer-link1 {
+  padding-right: .5rem;
+}
+footer a {
+  color: #464646;
 }
