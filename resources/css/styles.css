@@ -83,7 +83,7 @@ h1, h2, h3, h4 {
   background-color: #464646;
   padding-top: .8rem;
   padding-bottom: .8rem;
-  width: 27rem;
+  width: 100%;
 }
 .button:hover {
   background-color: #969696;
@@ -276,6 +276,21 @@ footer a {
               /* Media Queries */
 
 @media only screen and (max-width: 1160px) {
+
+              /* Banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+.banner img {
+  width: 100%;
+  padding: 0;
+}
+.cta {
+  width: 60%;
+  padding-bottom: 2rem;
+}
+              /* Gallery */
   .gallery-title {
     padding-left: 13rem;
     padding-right: 13rem;
@@ -294,6 +309,7 @@ footer a {
   }
               }
 @media only screen and (max-width: 905px) {
+              /* Gallery */
   .gallery {
     background-color: white;
   }
@@ -322,6 +338,7 @@ footer a {
   }
 }
 @media only screen and (max-width: 860px) {
+            /* Gallery */
   .gallery-title {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -329,6 +346,30 @@ footer a {
   }
 }
 @media only screen and (max-width: 750px) {
+            /* navigation */
+.desktop {
+  display: none;
+}
+.text-logo {
+  display: none;
+}
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+header .mobile li {
+    padding-right: .2rem;
+}
+header .mobile {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+ul {
+    list-style: none;
+  }
+            /* Gallery */
   .gallery-title {
     min-width: 250px;
     text-align: center;
@@ -339,5 +380,16 @@ footer a {
     padding: 1rem;
     height: 3rem;
     min-width: 250px;
+  }
+}
+@media only screen and (max-width: 668px) {
+  .cta {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .cta {
+    width: 90%;
+    padding-left: 2.5rem;
   }
 }
