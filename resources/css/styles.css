@@ -95,6 +95,7 @@ h1, h2, h3, h4 {
 h2 {
   font-size: 1.9rem;
   font-weight: 900;
+  text-align: center;
 }
 .main-content {
   background-color: white;
@@ -298,10 +299,15 @@ footer a {
   width: 60%;
 }
 .cta h1, .cta-subtitle {
-  padding-left: 30%;
+  padding-left: 20%;
+}
+.start-here {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59%;
 }
 .button {
-  padding: .8rem 3rem;
 
 }
             /* main-content */
@@ -329,9 +335,8 @@ footer a {
 }
               /* Gallery */
   .gallery-title {
-    padding-left: 13rem;
-    padding-right: 13rem;
     padding-bottom: 1rem;
+    display: inline;
   }
   h4 {
     font-size: 1rem;
@@ -345,6 +350,13 @@ footer a {
     font-size: 1rem;
   }
               }
+@media only screen and (max-width: 1053px) {
+              /* gallery */
+  .gallery-title {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
 @media only screen and (max-width: 925px) {
               /* main-content */
   .main-article {
@@ -361,7 +373,7 @@ footer a {
     align-items: center;
     border-bottom: 2px solid #e8e8e8;
     padding-top: 2rem;
-    padding-left: 6.5%;
+    padding-left: ;
     padding-right: 6.5%;
   }
   .sub-articlemobile {
@@ -376,6 +388,14 @@ footer a {
               /* Gallery */
   .gallery {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subject {
+    width: 100%;
+    padding: 1rem 1rem;
   }
   .subject img {
     display: none;
@@ -391,10 +411,6 @@ footer a {
     background-color: white;
     border: 2px solid #e8e8e8;
   }
-  .subject {
-    width: 100%;
-    padding: 1rem 1rem;
-  }
   .description3 {
     background-color: #e8e8e8;
     padding: 1rem;
@@ -404,9 +420,13 @@ footer a {
 @media only screen and (max-width: 860px) {
             /* Gallery */
   .gallery-title {
-    padding-left: 2rem;
-    padding-right: 2rem;
     padding-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .gallery-title {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 @media only screen and (max-width: 750px) {
@@ -443,17 +463,31 @@ ul {
     background-color: #e8e8e8;
     padding: 1rem;
     height: 3rem;
-    min-width: 250px;
+    min-width: 100%;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 668px) {
   .cta {
     width: 80%;
   }
+  h1 {
+    font-size: 2rem;
+  }
+  .cta-subtitle {
+    font-size: 1rem;
+  }
 }
 @media only screen and (max-width: 435px) {
   .cta {
     width: 90%;
     padding-left: 2.5rem;
+  }
+  .subject {
+    width: 200%;
+    min-width: 8rem;
+  }
+  h4 .description {
+    font-size: 1rem;
   }
 }
