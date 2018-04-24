@@ -173,7 +173,7 @@ h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem 9rem;
+  padding: 1rem 9rem;
 }
 h4 {
   font-size: 1.1rem;
@@ -215,7 +215,7 @@ h4 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem 9rem;
+  padding: 1rem 0rem;
 }
 .video-content {
   width: 60%;
@@ -307,9 +307,6 @@ footer a {
   justify-content: center;
   align-items: center;
   width: 59%;
-}
-.button {
-
 }
             /* main-content */
 .img2, .content {
@@ -406,7 +403,6 @@ h3 {
     border-bottom: 2px solid #e8e8e8;
   }
   .subject {
-
     width: 100%;
     padding: .5rem 1rem;
   }
@@ -425,29 +421,47 @@ h3 {
     border: 2px solid #e8e8e8;
   }
   .description3 {
-        min-width: 200px;
+    min-width: 150px;
     background-color: #e8e8e8;
-    padding: 1rem;
+    padding: rem;
     height: 3rem;
   }
 }
 @media only screen and (max-width: 860px) {
             /* Gallery */
   .gallery-title {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     padding-bottom: 1rem;
   }
 }
 @media only screen and (max-width: 848px) {
             /* Exhibit */
-    .video {
+    .exhibit {
+      background-color: white;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .video-content {
+      width: 100%;
+    }
+    .video-content .content, .video-title {
+      display: none;
     }
     .sidebar2 {
+      display: none;
+    }
+              /* footer */
+    footer {
+      width: 100%;
+    }
+    .footer-link1 {
+      display: none;
+    }
+    .footer-link {
       display: none;
     }
 }
